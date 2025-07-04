@@ -25,7 +25,7 @@ class ExternalAPI:
             "client_id": ObjectId(client_id),
             "service_name": service_name,
             "amount": amount,
-            "status": "pending",  # initially pending
+            "status": "pending", 
             "created_at": datetime.now()
         }
         result = db.orders.insert_one(order)

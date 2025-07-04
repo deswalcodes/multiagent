@@ -17,7 +17,7 @@ db = client["multiagent_db"]
 
 
 
-# utility for Mongo ObjectId in Pydantic
+
 class PyObjectId(ObjectId):
     @classmethod
     def __get_pydantic_core_schema__(

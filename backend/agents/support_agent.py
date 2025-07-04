@@ -10,13 +10,13 @@ from dotenv import load_dotenv
 load_dotenv()
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-# set up LLM
+
 llm = ChatOpenAI(
     model="gpt-4o",
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
-# initialize tools
+
 mongo_tool = MongoDBTool()
 external_api = ExternalAPI()
 

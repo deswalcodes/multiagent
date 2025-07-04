@@ -22,16 +22,16 @@ def support_route():
     
     detected_lang = detect(user_input)
     
-    # translate to English if the input is not English
+    
     if detected_lang != "en":
         translated_input = GoogleTranslator(source="auto", target="en").translate(user_input)
     else:
         translated_input = user_input
 
-    # invoke agent with translated input
+   
     result = support_executor.invoke({"input": translated_input})
 
-    # always return agent's response in English
+   
     return jsonify({"response": result["output"]})
 
 
@@ -48,10 +48,10 @@ def dashboard_route():
     else:
         translated_input = user_input
 
-    # call the dashboard agent
+    
     result = dashboard_executor.invoke({"input": translated_input})
 
-    # always return agent's response in English
+    
     return jsonify({"response": result["output"]})
 
 

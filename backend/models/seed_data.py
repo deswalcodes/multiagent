@@ -2,7 +2,7 @@ from schemas import db
 from datetime import datetime
 
 def seed_data():
-    # clear existing data
+    
     db.clients.delete_many({})
     db.orders.delete_many({})
     db.payments.delete_many({})
