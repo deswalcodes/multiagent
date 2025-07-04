@@ -1,6 +1,6 @@
 # 🧠 Multi-Agent AI System – Support & Analytics Agents
 
-This project implements a **multi-agent system** using [LangChain](https://www.langchain.com/) and [CrewAI-style tooling](https://docs.crewai.dev/), where two agents serve distinct but complementary business roles:
+This project implements a **multi-agent system** using [LangChain](https://www.langchain.com/) , where two agents serve distinct but complementary business roles:
 
 - 🎧 **Support Agent**: Handles client support, course/class info, and order/payment queries.
 - 📊 **Dashboard Agent**: Provides analytics and insights for business decision-making.
