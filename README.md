@@ -33,6 +33,29 @@ Backend is powered by **Flask**, **MongoDB**, and **LangChain**; while the front
 - Translates non-English input (e.g., Hindi → English) before execution
 
 ---
+## 📁 Folder Structure
+
+MULTIAGENT-ASSIGNMENT/
+├── backend
+│ ├── agents/
+│ │ ├── dashboard_agent.py # Analytics Agent
+│ │ └── support_agent.py # Support & Service Agent
+│ ├── models/
+│ │ ├── schemas.py # MongoDB Schemas & Connection
+│ │ └── seed_data.py # Initial data for testing
+│ ├── tools/
+│ │ ├── external_api.py # Simulated client/order creation API
+│ │ └── mongodb_tool.py # CRUD & Aggregation Helpers
+│ ├── app.py # Main Flask app with API routes
+├── frontend.py # Optional Streamlit interface (hosted)
+├── requirements.txt # Python dependencies
+├── .env # Environment variables (Mongo URI, API keys)
+├── screenshots/
+│ ├── 1.png, 1.1.png # Example 1: Query + Logs
+│ ├── 2.png, 2.2.png # Example 2: Query + Logs
+│ ├── 3.png, 3.3.png # Example 3: Query + Logs
+│ ├── 4.png, 4.4.png # Example 4: Multilingual + Memory
+---
 
 
 
