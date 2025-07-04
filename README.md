@@ -62,26 +62,26 @@ MULTIAGENT-ASSIGNMENT/
 ### 🖼️ Example Screenshots
 
 #### 🔹 Example 1: Query for classes this week
-| Streamlit Interface | Backend Logs |
+| Query Terminal Logs | Server Terminal |
 |---------------------|--------------|
 | ![Query 1](./screenshots/1.png) | ![Log 1.1](./screenshots/1.1.png) |
 
-#### 🔹 Example 2: Check if order is paid
-| Streamlit Interface | Backend Logs |
+#### 🔹 Example 2: Creating an Order
+|Query Terminal Logs | Server Terminal |
 |---------------------|--------------|
 | ![Query 2](./screenshots/2.png) | ![Log 2.2](./screenshots/2.2.png) |
 
-#### 🔹 Example 3: Create order for Yoga Beginner
-| Streamlit Interface | Backend Logs |
+#### 🔹 Example 3: Extracting Total Revenue
+| Query Terminal Logs | Server Terminal |
 |---------------------|--------------|
 | ![Query 3](./screenshots/3.png) | ![Log 3.3](./screenshots/3.3.png) |
 
 #### 🔹 Example 4: Multilingual Query + Memory Recall
-| Streamlit Interface | Backend Logs |
+| Query Terminal Logs | Server Terminals |
 |---------------------|--------------|
 | ![Multilingual + Memory](./screenshots/4.png) | ![Log 4.4](./screenshots/4.4.png) |
 
-> In Screenshot 4, the query was made in Hindi and automatically translated. The next query, "what did I ask earlier?", demonstrates memory recall capability.
+## In Screenshot 4, the query was made in Hindi and automatically translated. The next query, "what did I ask earlier?", demonstrates memory recall capability.
 ---
 
 
