@@ -83,6 +83,60 @@ MULTIAGENT-ASSIGNMENT/
 
 ## In Screenshot 4, the query was made in Hindi and automatically translated. The next query, "what did I ask earlier?", demonstrates memory recall capability.
 ---
+## 🛠 Setup & Run Instructions
+
+Follow these steps to set up and run the Multi-Agent AI backend + frontend on your local system.
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/multiagent-assignment.git
+cd multiagent-assignment
+```
+### 2️⃣ Install Python Dependencies
+```
+pip install -r requirements.txt
+
+```
+### 3️⃣ Set Up Environment Variables
+Create a .env file in the root directory:
+```
+OPENAI_API_KEY=your_openai_key
+MONGODB_URI=your_mongo_connection_uri
+```
+### 4️⃣ Seed the MongoDB Database
+This step populates the database with mock data (courses, clients, payments, etc.).
+```
+cd backend/models
+python seed_data.py
+
+```
+### 5️⃣ Start the Flask Server
+```
+cd ../../backend
+python app.py
+```
+---
+## 📡 Available Endpoints
+
+| Endpoint       | Method | Description                             |
+|----------------|--------|-----------------------------------------|
+| `/support`     | POST   | Send queries to the Support Agent       |
+| `/dashboard`   | POST   | Send queries to the Dashboard Agent     |
+
+### 🔍 Sample Request Format (JSON)
+
+```json
+{
+  "query": "What classes are available this week?"
+}
+```
+
+
+
+
 
 
 
