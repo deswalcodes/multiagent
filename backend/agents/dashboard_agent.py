@@ -39,7 +39,7 @@ tools = [
     Tool(
         name="TopCourses",
         func=lambda x: [
-            {"course_id": s["course_id"], "count": s["count"]}
+            {"course_id": s["_id"], "count": s["count"]}
             for s in mongo_tool.db.clients.aggregate([
                 {"$unwind": "$enrolled_services"},
                 {"$group": {"_id": "$enrolled_services.course_id", "count": {"$sum": 1}}},
