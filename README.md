@@ -133,9 +133,14 @@ python app.py
   "query": "What classes are available this week?"
 }
 ```
+## 🧠 Notes:
+-Input should be a natural language query in the query field.
 
+-Non-English queries are automatically translated to English using Google Translate.
 
+-Responses are always returned in English.
 
+-Memory is preserved per agent instance (useful for contextual follow-ups).
 
 
 
