@@ -141,6 +141,37 @@ python app.py
 -Responses are always returned in English.
 
 -Memory is preserved per agent instance (useful for contextual follow-ups).
+---
+## 🚀 Key Features Recap
+
+- 🔍 **Natural Language Querying** over MongoDB collections
+- 🧠 **Memory-enabled Agents** for contextual follow-up
+- 🌍 **Multilingual Input Support** (via Google Translate)
+- 🔗 **External API Integration** for simulating orders and client creation
+- 📊 **Business Analytics** like revenue, attendance, and course trends
+- 🖼️ Visual frontend using **Streamlit** for live demos
+
+---
+
+## 🧰 Tech Stack
+
+| Layer         | Tools Used                         |
+|---------------|------------------------------------|
+| Agent Logic   | LangChain, OpenAI GPT-4o           |
+| Backend       | Python, Flask                      |
+| Database      | MongoDB                            |
+| Agent Memory  | ConversationBufferMemory (LangChain) |
+| Frontend      | Streamlit                          |
+| Hosting       | Render (Flask backend), Streamlit Cloud |
+
+---
+
+## 🙌 Credits
+
+This project was built as part of a **multi-agent backend system** following modular LangChain-based architecture, designed to simulate real-world agent collaboration between support and analytics roles.
+
+> Developed by: **Priyanshu Deswal**
+
 
 
 
