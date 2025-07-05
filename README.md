@@ -141,7 +141,7 @@ python app.py
 -Responses are always returned in English.
 
 -Memory is preserved per agent instance (useful for contextual follow-ups).
----
+
 ## 🚀 Key Features Recap
 
 - 🔍 **Natural Language Querying** over MongoDB collections
@@ -170,7 +170,7 @@ python app.py
 
 This project was built as part of a **multi-agent backend system** following modular LangChain-based architecture, designed to simulate real-world agent collaboration between support and analytics roles.
 
-> Developed by: **Priyanshu Deswal**
+## Developed by: **Priyanshu Deswal**
 
 
 
